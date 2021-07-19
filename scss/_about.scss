@@ -120,6 +120,7 @@
     }
 }
 
+
 .our-gallery-area {
     position: relative;
     z-index: 1;
@@ -159,3 +160,26 @@
         }
     }
 }
+
+
+// .social-info {
+//     a {
+//         height: 34px;
+//         width: 34px;
+//         border: 1px solid $border-5;
+//         border-radius: 50%;
+//         display: inline-block;
+//         text-align: center;
+//         line-height: 32px;
+//         color: $white;
+//         font-size: 15px;
+//         margin-right: 8px;
+//         @include transition-duration(500ms);
+
+//         &:hover,
+//         &:focus {
+//             background-color: $text;
+//             border-color: $text;
+//         }
+//     }
+// }
