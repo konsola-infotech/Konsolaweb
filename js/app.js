@@ -3,7 +3,6 @@ $("#workshop-form").submit((e) => handleSubmit(e, "#workshop-form"));
 $("#contact_form").submit((e) => handleSubmit(e, "#contact_form"));
 
 function handleSubmit(e, selector) {
-  console.log(arguments);
   e.preventDefault();
   var form = $(selector);
   console.log(form);
@@ -14,7 +13,6 @@ function handleSubmit(e, selector) {
     data: formData,
     dataType: "jsonp",
     success: function (json) {
-      console.log(json);
       $(selector)[0].reset();
       thankYou(selector);
     },
