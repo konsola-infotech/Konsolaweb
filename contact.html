@@ -131,37 +131,37 @@
                             <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae</p>
                         </div>
                         <div class="contact_form">
-                            <form action="mail.php" method="post">
+                            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSccEX4kUwQ3f6iErC4d4edGo54eu4dTW0A1CvKidKva0Ueo4Q/formResponse" method="post" id="contact_form">
                                 <div class="contact_input_area">
                                     <div class="row">
                                         <!-- Form Group -->
                                         <div class="col-12 col-lg-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control mb-30" name="name" id="name" placeholder="Your Name" required>
+                                                <input type="text" class="form-control mb-30" name="entry.1535283565" id="name" placeholder="Your Name" required>
                                             </div>
                                         </div>
                                         <!-- Form Group -->
                                         <div class="col-12 col-lg-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control mb-30" name="name" id="name-2" placeholder="Last Name" required>
+                                                <input type="text" class="form-control mb-30" name="entry.373243000" id="name-2" placeholder="Last Name" required>
                                             </div>
                                         </div>
                                         <!-- Form Group -->
                                         <div class="col-12 col-lg-6">
                                             <div class="form-group">
-                                                <input type="email" class="form-control mb-30" name="email" id="email" placeholder="E-mail" required>
+                                                <input type="email" class="form-control mb-30" name="entry.1188309873" id="email" placeholder="E-mail" required>
                                             </div>
                                         </div>
                                         <!-- Form Group -->
                                         <div class="col-12 col-lg-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control mb-30" name="subject" id="subject" placeholder="Your Number">
+                                                <input type="text" class="form-control mb-30" name="entry.2018383302" id="subject" placeholder="Your Number">
                                             </div>
                                         </div>
                                         <!-- Form Group -->
                                         <div class="col-12">
                                             <div class="form-group">
-                                                <textarea name="message" class="form-control mb-30" id="message" cols="30" rows="6" placeholder="Message" required></textarea>
+                                                <textarea name="entry.1384766511" class="form-control mb-30" id="message" cols="30" rows="6" placeholder="Message" required></textarea>
                                             </div>
                                         </div>
                                         <!-- Button -->
@@ -357,6 +357,32 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </footer>
     <!-- Footer Area End -->
 
+        <!-- thank you -->
+
+    <div class="modal show" id="thankyou-contact_form" role="dialog">
+    <div class="modal-dialog ">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+       <div class="modal-header">
+        <h5 class="modal-title">Thank you!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        <div class="modal-body">
+          <p>Thank you for your response, we have received your query and we will get back to you soon!!! </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+    <!-- thank you end -->
+
     <!-- **** All JS Files ***** -->
     <!-- jQuery 2.2.4 -->
     <script src="js/jquery.min.js"></script>
@@ -368,7 +394,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/confer.bundle.js"></script>
     <!-- Active -->
     <script src="js/default-assets/active.js"></script>
+<script src="./js/app.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-F2KBMRB67D');
+</script>
 </body>
 
 </html>
