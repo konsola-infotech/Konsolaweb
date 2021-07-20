@@ -524,7 +524,7 @@
     <!-- Our Client Area -->
 
 <!-- Contact Us Area Start -->
-<section class="contact--us-area section-padding-100-0">
+<section class="contact--us-area section-padding-100-0" id="register">
     <div class="container">
         <div class="row">
             <!-- Contact Us Thumb -->
@@ -543,49 +543,43 @@
                         <p>Register now </p>
                     </div>
                     <div class="contact_form">
-                        <form action="mail.php" method="post">
+                        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc1mPKlQQPmeTV4z3MUdTjiJ4yiXJWac0S5ltOKjkXynd3cQg/formResponse" method="post" id="workshop-form">
                             <div class="contact_input_area">
                                 <div class="row">
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control mb-30" name="name" id="name" placeholder="Your Name" required>
+                                            <input type="text" class="form-control mb-30" name="entry.212433750" id="name" placeholder="Full Name" required>
                                         </div>
                                     </div>
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control mb-30" name="name" id="name-2" placeholder="Last Name" required>
+                                            <input type="email" class="form-control mb-30" name="entry.501340965" id="email" placeholder="E-mail" required>
                                         </div>
                                     </div>
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <input type="email" class="form-control mb-30" name="email" id="email" placeholder="E-mail" required>
+                                            <input type="text" class="form-control mb-30" name="entry.229207490" id="whatsapp" placeholder="Your Whatsapp Number" required>
                                         </div>
                                     </div>
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control mb-30" name="subject" id="subject" placeholder="Your Whatsapp Number" required>
+                                            <input type="text" class="form-control mb-30" name="entry.586613403" id="stream" placeholder="Stream / Branch" required>
                                         </div>
                                     </div>
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control mb-30" name="subject" id="subject" placeholder="Branch" required>
+                                            <input type="text" class="form-control mb-30" name="entry.142264262" id="class" placeholder="Class" required>
                                         </div>
                                     </div>
                                     <!-- Form Group -->
                                     <div class="col-12 col-lg-6">
                                         <div class="form-group">
-                                            <input type="text" class="form-control mb-30" name="subject" id="subject" placeholder="Class" required>
-                                        </div>
-                                    </div>
-                                    <!-- Form Group -->
-                                    <div class="col-12 col-lg-6">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control mb-30" name="subject" id="subject" placeholder="College Name" required>
+                                            <input type="text" class="form-control mb-30" name="entry.880545790" id="College" placeholder="College Name" required>
                                         </div>
                                     </div>
                                     <!-- Button -->
@@ -721,7 +715,62 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     </footer>
     <!-- Footer Area End -->
 
+
+    <!-- thank you -->
+
+    <div class="modal show" id="thankyou-workshop-form" role="dialog">
+    <div class="modal-dialog ">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+       <div class="modal-header">
+        <h5 class="modal-title">Thank you!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        <div class="modal-body">
+          <p>Thank you for your response, we have received your query and we will get back to you soon!!! </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+    <!-- thank you end -->
+
+        <!-- thank you -->
+
+    <div class="modal show" id="thankyou-workshop-form" role="dialog">
+    <div class="modal-dialog ">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+       <div class="modal-header">
+        <h5 class="modal-title">Thank you!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        <div class="modal-body">
+          <p>Thank you for your response, we have received your query and we will get back to you soon!!! </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+    <!-- thank you end -->
+
+
     <!-- **** All JS Files ***** -->
+
     <!-- jQuery 2.2.4 -->
     <script src="js/jquery.min.js"></script>
     <!-- Popper -->
@@ -732,7 +781,14 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <script src="js/confer.bundle.js"></script>
     <!-- Active -->
     <script src="js/default-assets/active.js"></script>
+<script src="./js/app.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-F2KBMRB67D');
+</script>
 </body>
 
 </html>
