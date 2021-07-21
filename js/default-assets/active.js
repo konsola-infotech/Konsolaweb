@@ -127,7 +127,7 @@
   // *********************************
 
   if ($.fn.imagesLoaded) {
-    $(".confer-portfolio").imagesLoaded(function () {
+    $(".konsola-portfolio").imagesLoaded(function () {
       // filter items on button click
       $(".portfolio-menu").on("click", "button", function () {
         var filterValue = $(this).attr("data-filter");
@@ -136,7 +136,7 @@
         });
       });
       // init Isotope
-      var $grid = $(".confer-portfolio").isotope({
+      var $grid = $(".konsola-portfolio").isotope({
         itemSelector: ".single_gallery_item",
         percentPosition: true,
         masonry: {

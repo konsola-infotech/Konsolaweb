@@ -1,15 +1,18 @@
 {
-  "name": "confer-conference-event-html-template",
+  "name": "konsola-conference-event-html-template",
   "version": "1.0.0",
-  "description": "Confer - Conference Event HTML Template",
+  "description": "konsola - Conference Event HTML Template",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
   },
+  "resolutions": {
+    "graceful-fs": "^4.2.4"
+  },
   "author": "colorlib",
   "license": "CC-BY-3.0",
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "4.0.0",
     "gulp-concat": "^2.6.1"
   },
   "dependencies": {
