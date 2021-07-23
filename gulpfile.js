@@ -46,6 +46,7 @@ gulp.task("scripts", function () {
       "node_modules/jarallax/dist/jarallax-video.min.js",
       "./js/default-assets/jquery.scrollup.min.js",
       "node_modules/jquery-countdown/dist/jquery.countdown.min.js",
+      "node_modules/simplycountdown.js/dist/simplyCountdown.min.js",
     ])
     .pipe(concat("konsola.bundle.js"))
     .pipe(gulp.dest("./js/"));

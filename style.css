@@ -3477,4 +3477,25 @@ input:required {
   margin-right: 3px;
 }
 
+#clock {
+  display: block;
+  width: 100%;
+}
+
+.simply-section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100% !important;
+  border: none !important;
+  margin: 0 !important;
+}
+.simply-amount {
+  font-size: 2rem !important;
+}
+.simply-word {
+  color: red;
+}
+
 /*# sourceMappingURL=style.css.map */

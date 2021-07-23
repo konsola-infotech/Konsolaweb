@@ -1,0 +1,24 @@
+#clock {
+  display: block;
+  width: 100%;
+}
+
+.simply {
+  &-section {
+    & > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100% !important;
+      border: none !important;
+      margin: 0 !important;
+    }
+  }
+  &-amount {
+    font-size: 2rem !important;
+  }
+  &-word {
+    color: red;
+  }
+}

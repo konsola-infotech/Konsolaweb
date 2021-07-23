@@ -240,12 +240,24 @@
   // :: 13.0 Countdown Active Code
   // ****************************
   if ($.fn.countdown) {
-    $("#clock").countdown("09/08/2021 18:00:00", function (event) {
-      $(this).html(
-        event.strftime(
-          "<div>%m <span>Months</span></div> <div>%d <span>Days</span></div> <div>%H <span>Hours</span></div> <div>%M <span>Minutes</span></div> <div>%S <span>Seconds</span></div>"
-        )
-      );
+    // $("#clock").countdown("09/08/2021 18:00:00", function (event) {
+    //   $(this).html(
+    //     event.strftime(
+    //       "<div>%m <span>Months</span></div> <div>%d <span>Days</span></div> <div>%H <span>Hours</span></div> <div>%M <span>Minutes</span></div> <div>%S <span>Seconds</span></div>"
+    //     )
+    //   );
+    // });
+
+    $("#clock").simplyCountdown({
+      // date: "2021-09-08 18:00:00",
+      year: "2021",
+      month: "08",
+      day: "08",
+      hour: "18",
+      minute: "00",
+      second: "00",
+      refresh: 1000,
+      enableUtc: true,
     });
   }
 
