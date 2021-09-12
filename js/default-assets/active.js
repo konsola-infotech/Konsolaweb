@@ -251,8 +251,8 @@
     $("#clock").simplyCountdown({
       // date: "2021-09-08 18:00:00",
       year: "2021",
-      month: "08",
-      day: "08",
+      month: "09",
+      day: "19",
       hour: "18",
       minute: "00",
       second: "00",
