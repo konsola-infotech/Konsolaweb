@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* ------------------------------------------
 [Master Stylesheet]
 
@@ -1822,7 +1823,7 @@ input:required {
   color: #3a3ae9;
 }
 .breadcrumb-content .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
-  content: "\f105";
+  content: "";
   color: #ffffff;
   font-family: "FontAwesome";
 }
@@ -1931,7 +1932,6 @@ input:required {
 .single-blog-area .single-blog-thumb {
   border-radius: 10px 10px 0 0;
   overflow: hidden;
-  aspect-ratio: 24/13;
 }
 .single-blog-area .single-blog-thumb img {
   border-radius: 10px 10px 0 0;
@@ -3497,3 +3497,5 @@ input:required {
 .simply-word {
   color: red;
 }
+
+/*# sourceMappingURL=style.css.map */

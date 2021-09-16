@@ -13,7 +13,9 @@
   "license": "CC-BY-3.0",
   "devDependencies": {
     "gulp": "4.0.0",
-    "gulp-concat": "^2.6.1"
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.41.0"
   },
   "dependencies": {
     "bootstrap": "^4.3.1",

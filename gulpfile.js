@@ -1,5 +1,6 @@
 const gulp = require("gulp");
 const concat = require("gulp-concat");
+var sass = require("gulp-sass")(require("sass"));
 
 // ***********************
 // Move JS Files to src/js
@@ -52,6 +53,14 @@ gulp.task("scripts", function () {
     .pipe(gulp.dest("./js/"));
 });
 
+gulp.task("scss", function () {
+  return gulp
+    .src("scss/style.scss")
+    .pipe(sass().on("error", sass.logError))
+    .pipe(concat("style.css"))
+    .pipe(gulp.dest("./"));
+});
+
 // ************************************
 // Move Font Awesome Fonts to src/fonts
 // ************************************
@@ -100,5 +109,13 @@ gulp.task("css", function () {
 
 gulp.task(
   "default",
-  gulp.series(["js", "scripts", "css", "fafonts", "elefonts", "zmdifonts"])
+  gulp.series([
+    "js",
+    "scripts",
+    "scss",
+    "css",
+    "fafonts",
+    "elefonts",
+    "zmdifonts",
+  ])
 );
