@@ -1,11 +1,13 @@
 $("#main_contact_form").submit((e) => handleSubmit(e, "#main_contact_form"));
 $("#workshop-form").submit((e) => handleSubmit(e, "#workshop-form"));
 $("#contact_form").submit((e) => handleSubmit(e, "#contact_form"));
-let submit_button = $("#submit-workshop");
-function handleSubmit(e, selector) {
+$("#ambassador_form").submit((e) => handleSubmit(e, "#ambassador_form"));
+// let
+function handleSubmit(e, selector, submit_button) {
   e.preventDefault();
   var form = $(selector);
   // console.log(form);
+  submit_button = submit_button || $("#submit-workshop");
   submit_button.attr("disabled", "disabled");
   var formData = form.serialize();
   $.ajax({
